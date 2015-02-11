@@ -46,5 +46,28 @@ var writeBerryInfo = function (berry) {
 
 writeBerryInfo(blueberry);
 
+var writeBerryInfo = function (berry) {
+	document.write("<h1>" + berry.fullName + "</h1>")
+	
+	document.write("<dl>");
+	
+	document.write("<dt>Grows On Shrub</dt>");
+	document.write("<dd>" + berry.growsOnShrub + "</dt>");
+	
+	document.write("<dt>Energy</dt>");
+	document.write("<dd>" + berry.energy + "</dt>");
+	
+	document.write("<dt>Carbohydrates</dt>");
+	document.write("<dd>" + berry.carbohydrates + "</dt>");
+	
+	document.write("<dt>Protein</dt>");
+	document.write("<dd>" + berry.protein + "</dt>");
+	
+	document.write("</dl>");
+};
+
+writeBerryInfo(grapes);
+
+
 
 	
