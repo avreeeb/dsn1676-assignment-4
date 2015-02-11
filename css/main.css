@@ -17,3 +17,11 @@ text-size-adjust: 100%;
 *, *::before, *::after {
 	box-sizing: inherit;
 }
+
+h1 {
+	color: red;
+}
+
+dt {
+	font-weight:bold;
+}

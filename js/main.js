@@ -9,7 +9,7 @@ var blueberry = {
 };
 
 var grapes = {
-	fullname:"Vitis vinifera",
+	fullName:"Vitis vinifera",
 	growsOnShrub: false,
 	energy: 288,
 	carbohydrates: 18.1,
@@ -17,7 +17,7 @@ var grapes = {
 };
 	
 var redCurrant = {
-	fullname:"Ribes rubrum",
+	fullName:"Ribes rubrum",
 	growsOnShrub: true,
 	energy: 234,
 	carbohydrates: 13.8,
@@ -33,10 +33,10 @@ var writeBerryInfo = function (berry) {
 	document.write("<dd>" + berry.growsOnShrub + "</dt>");
 	
 	document.write("<dt>Energy</dt>");
-	document.write("<dd>" + berry.energy + "</dt>");
+	document.write("<dd>" + berry.energy + " kJ</dt>");
 	
 	document.write("<dt>Carbohydrates</dt>");
-	document.write("<dd>" + berry.carbohydrates + "</dt>");
+	document.write("<dd>" + berry.carbohydrates + "g</dt>");
 	
 	document.write("<dt>Protein</dt>");
 	document.write("<dd>" + berry.protein + "</dt>");
@@ -45,29 +45,9 @@ var writeBerryInfo = function (berry) {
 };
 
 writeBerryInfo(blueberry);
-
-var writeBerryInfo = function (berry) {
-	document.write("<h1>" + berry.fullName + "</h1>")
-	
-	document.write("<dl>");
-	
-	document.write("<dt>Grows On Shrub</dt>");
-	document.write("<dd>" + berry.growsOnShrub + "</dt>");
-	
-	document.write("<dt>Energy</dt>");
-	document.write("<dd>" + berry.energy + "</dt>");
-	
-	document.write("<dt>Carbohydrates</dt>");
-	document.write("<dd>" + berry.carbohydrates + "</dt>");
-	
-	document.write("<dt>Protein</dt>");
-	document.write("<dd>" + berry.protein + "</dt>");
-	
-	document.write("</dl>");
-};
-
 writeBerryInfo(grapes);
+writeBerryInfo(redCurrant);
 
 
 
-	
+
