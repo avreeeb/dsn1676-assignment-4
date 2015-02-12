@@ -19,9 +19,16 @@ text-size-adjust: 100%;
 }
 
 h1 {
-	color: red;
+	color: white;
+	background-color:#14E1AD
 }
 
 dt {
 	font-weight:bold;
+	
+}
+
+dd {
+
+	
 }
