@@ -29,6 +29,8 @@ h1 {
 dt {
 	font-weight:bold;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #14E1AD;
+	padding-bottom:.4em;
 }
 
 dd {
@@ -37,6 +39,7 @@ dd {
 	padding-bottom:1em;
 	padding-top:1em;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-left:1em;
 
 
 }
