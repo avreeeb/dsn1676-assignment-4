@@ -19,16 +19,21 @@ text-size-adjust: 100%;
 }
 
 h1 {
-	color: white;
-	background-color:#14E1AD
+	color: #14E1AD;
+	background-color:#ffffff;
+	padding-bottom:1em;
+	padding-top:1em;
 }
 
 dt {
 	font-weight:bold;
-	
 }
 
 dd {
+	color:white;
+	background-color:#14E1AD;
+	padding-bottom:1em;
+	padding-top:1em;
 
-	
+
 }

@@ -1,7 +1,7 @@
 // JavaScript Document
 
 var blueberry = {
-	fullName :"Vaccinium corymbosum",
+	fullName :"Vaccinium Corymbosum",
 	growsOnShrub: true,
 	energy: 240,
 	carbohydrates: 14.49,
@@ -9,7 +9,7 @@ var blueberry = {
 };
 
 var grapes = {
-	fullName:"Vitis vinifera",
+	fullName:"Vitis Vinifera",
 	growsOnShrub: false,
 	energy: 288,
 	carbohydrates: 18.1,
@@ -17,7 +17,7 @@ var grapes = {
 };
 	
 var redCurrant = {
-	fullName:"Ribes rubrum",
+	fullName:"Ribes Rubrum",
 	growsOnShrub: true,
 	energy: 234,
 	carbohydrates: 13.8,
